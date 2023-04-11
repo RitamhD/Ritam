@@ -119,5 +119,5 @@ def taskExecution():
             os.system('taskkill /f /im code.exe')
             
         else:
-            speak("Sorry I don't understand, I am still learning, but if you want I can play some music for you, just say play a music")
+            speak("Sorry I didn't understand, I am still learning, but if you want I can play some music for you, just say play a music")
 taskExecution()
